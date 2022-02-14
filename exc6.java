@@ -1,4 +1,4 @@
-package com.example.exc5;
+package com.example.exc6;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -15,7 +15,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
         Button click_button=findViewById(R.id.button1);
-        TextView mytext=findViewById(R.id.textview1);
+        final TextView mytext=findViewById(R.id.textview1);
         click_button.setOnClickListener(new View.OnClickListener(){
             @Override
             public void onClick(View v) {
